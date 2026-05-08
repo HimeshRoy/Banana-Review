@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body{
+  background:#0b0b0b;
+  color:white;
+}
+
+.scrollbar-hide::-webkit-scrollbar{
+  display:none;
+}
+
+.swiper-pagination-bullet{
+  background: white !important;
+}
+
+.swiper-pagination-bullet-active{
+  background: #facc15 !important;
+}
